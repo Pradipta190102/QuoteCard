@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    background-color: #E6FFFC;
+}
+
+
+
+#mainframe{
+    width:37%;
+    height:55vw;
+    background-color: white;
+    margin:30vh auto;
+    border-radius: 3%;
+    border:2px solid rgb(235, 235, 235);
+    
+    
+}
+.imagefill{
+    width:90%;
+    height:50%;
+     border-radius: 3%;
+     margin: 5% auto;
+      border:2.5px solid rgb(235, 235, 235)
+}
+.imagefill img{
+     width:100%; /* Image will be no wider than its parent div */
+  height: 100%; 
+
+   border-radius: 3%;   /* Height will adjust automatically to maintain aspect ratio */
+
+}
+.tags-container {
+    display: flex; /* This is the key change */
+    justify-content: left; /* Centers the tags horizontally */
+    margin:auto; /* Adds space above and centers */
+    width: 90%;
+     background-color: white;
+
+}
+
+.tags p{
+    margin-right: 10px;
+    width:80%; /* Adds space between the tags */
+    border: 1px solid rgb(194, 194, 194);
+    border-radius:21px;
+    color:rgb(107, 107, 107);
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding:2px;
+}
+.tags{
+    background-color: white;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    font-size:21px;
+    padding-top: 13px;
+    padding-bottom:10px;
+    background-color: white;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    background-color: white;
+    font-weight: bold;
+     color:rgb(107, 107, 107);
+}
+.description{
+    width:90%;
+    margin:auto;
+    
+}
+.button{
+   border:2px solid #3e87fc00;
+   width:25%;
+   height:6%;
+   margin: 27px auto;
+   text-align:center;
+   border-radius:21px;
+   background-color: #3e87fc65;
+
+}
+.button p{
+         width:100%;
+        margin: 6% auto;
+    font-size: 11px;   
+    color:#0b57d0;
+    font-weight: bold;
+    background-color:transparent;
+    border-radius:21px;
+}
+
